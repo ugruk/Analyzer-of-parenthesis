@@ -1,4 +1,7 @@
-### Program module that supposed to analyze sequence of characters and finds out its state in terms of closed parenthesis. Checker.h is a header file which contains class "Checker"
+### Program module that supposed to analyze sequence of characters and finds out its state in terms of closed parenthesis.
+.exe file is exist just to show example: how do those function works with understandable output.
+Checker.h is a header file which contains class "Checker"
+
 
 This class have 2 public functions.
 ##### 1. check_str - allows you to analyze sequence of characters.
@@ -23,4 +26,4 @@ Works the same way, but the "pos" is now a number of position, where you want to
 5 - You didn't closed all opened brackets.
 6 - Checking of the state of the sequence at arbitrary point is finished. The end of the sequence was before this point.
 
-P.S. Functions are sensitive to spaces. So, you can separate strings by space, but if you need to check string which includes spaces, you need to clear them first
+P.S. Functions are sensitive to spaces. So, you can separate strings by space, but if you need to check string which includes spaces, you need to clear them first.
