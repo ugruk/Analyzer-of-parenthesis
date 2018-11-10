@@ -24,7 +24,6 @@ int main()
 		else { exit(3); }
 	}
 	exit(1);
-	system("pause");
     return 0;
 }
 
